@@ -14,34 +14,35 @@
 }
 body{
     margin: 0;
-    padding: 100px 0px;
+    padding: 0px;
     font-family: 'Rubik', sans-serif;
 }
 
 .design{
-    width: 300px;
+    width: 200px;
     background-color: var(--Moderate-Violet);
     height: 500px;
     margin: 0px;
-    border-radius: 0px 0px 150px 40px;
+    border-radius: 0px 0px 450px 0px;
     margin-left: -1px;
 }
 .container{
     width: 500px;
     margin:auto;
-    padding: 0rem 0rem;
     background-color: #fff;
-    box-shadow: 10px 10px 20px 10px var(--Grayish-Blue);
+    box-shadow: 10px 30px 20px 10px var(--Grayish-Blue);
 
 }
 
 .phone{
-    border: 6px solid white;
-    width:80%;
     margin: auto;
-    margin-top: -400px;
+    margin-top: -30em;
     border-radius: 40px;
-    box-shadow: 20px 0px 20px 0px var(--Grayish-Blue);
+    box-shadow: 35px 30px 20px 1px var(--Grayish-Blue);
+    border: 8px solid white;
+    width: 70%;
+    background: #fff;
+    height: auto;
 }
 
 
@@ -49,8 +50,8 @@ body{
 ---Header-----------------*/
 
 .head-style{
-    width: 200px;
-    height: 20px;
+    width: 150px;
+    height: 10px;
     background-color:#fff;
     margin-left: auto;
     margin-right: auto;
@@ -68,7 +69,7 @@ body{
     justify-content: space-between;
     padding: 1rem;
     margin: auto;
-    margin-top: -25px;
+    margin-top: -35px;
     color: #fff;
     border-radius:40px 40px 5px 5px;
 }
@@ -76,9 +77,10 @@ body{
 
 .arrow1 {
     border: 1px solid #fff;
-    border-width: 0 5px 5px 0;
+    border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 5px;
+    padding: 4px;
+    margin: auto;
   }
 
   .left {
@@ -91,29 +93,32 @@ body{
   .profile{
     display: flex;
     flex-direction: row;
+    width: fit-content;
+    gap: 10px;
   }
 
 .image{
-    width:40px;
-    height: 40px;
-    margin-top: 25px;
+    width:25px;
+    height: 25px;
+    margin-top: 30px;
     border: 2px solid #fff;
     border-radius: 50%;
 }
 
 .name{
-    margin-top: 20px;
-    line-height: 10px;
+    margin-top:20px;
+    line-height: 5px;
 }
 
 .name h1{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
 }
 
 .name .Avaliable{
-    font-size: 12px;font-weight: 300;
-    color:var(--Grayish-Blue);
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.487);
 }
 
 .dots{
@@ -122,7 +127,7 @@ body{
 }
 .dots div{
     width: 0px;
-    height: 8px;
+    height: 5px;
     font-weight: 900;
 }
 .dots a{
@@ -144,19 +149,19 @@ body{
 
     justify-content: center;
     background-color: var(--Grayish-Blue);
-    width: fit-content;
+    color: var(--Moderate-Violet);
+    width:100%;
     padding: 0.5rem;
     max-width: 80%;
-    color: var(--Moderate-Violet);
     border-radius: 15px;
+    font-size: 12px;
 }
 
 .sender-image{
     display: flex;
     flex-direction: row;
-    width:50%;
     gap: 10px;
-    justify-content: space-around;
+    align-self: flex-end;
 }
 
 .dogs{
@@ -174,6 +179,7 @@ body{
     padding: 0.5rem;
     justify-self: end;
     max-width:210px;
+    font-size: 12px;
     box-shadow: 3px 3px 5px 5px var(--Grayish-Blue);
 }
 
@@ -185,12 +191,14 @@ body{
     display: flex;
     flex-direction:row;
     width:80%;
+    font-size: 13px;
+    padding-right: 1rem;
     border-radius: 20px 20px 20px 0px;
 }
 
 .circle{
-   width: 20px;
-   height: 20px;
+   width: 15px;
+   height: 15px;
    margin:auto 10px;
    border: 1px solid #fff;
    border-radius: 50%;
@@ -204,50 +212,47 @@ body{
 }
 
 .minutes{
-    margin: auto 5px;
+    margin: auto 0px;
 }
 .hours{
-    margin: auto 5px;
+    margin: auto 0px;
 }
 
 h2{
-margin-left:50px;
-margin-right: 5px;
-font-weight: 600;
+margin-left:auto;
+margin-right: 0px;
 }
-.end{
-    margin-left: 75px;
-}
+
 
 .textarea{
     width:100%;
     background-color: #fff;
     display: flex;
     justify-content:start;
-    border-radius: 20px 30px 30px 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px 5px var(--Grayish-Blue);
+    border-radius: 20px 30px 30px 20px;
+    box-shadow: 2px var(--Grayish-Blue);
 }
 
 input{
     width: 90%;
-    height: 60px;
+    height: 30px;
     border: none;
     border-radius: 10px;
     padding: 1rem;
 }
 
 .btn-2{
-    width:50px;
-    height: 50px;
+    width:25px;
+    height: 25px;
     margin: auto;
     margin-right: 5px;
     border-radius: 50%;
     background-color:var(--Very-Dark-Desaturated-Violet);
-    color: #fff;
     font-size: 20px;
     font-weight: 900;
+    align-self: center;
+    display: flex;
 }
 
 .right {
@@ -294,9 +299,9 @@ h3{
 .design{
     width: 25%;
     background:linear-gradient(to bottom, var(--Light-Magenta), var(--Light-Violet));
-    height:80vh;
+    height:85vh;
     margin: 0px;
-    border-radius: 0px 0px 200px 200px;
+    border-radius: 0px 0px 200px 100px;
     margin-left: 5px;
     margin-top: -30px;
 
@@ -306,148 +311,17 @@ h3{
         display: flex;
         padding-top: 2rem;
         padding-bottom: 3rem;
+        box-shadow: none;
     }
 
     .phone{
-        border: 8px solid white;
-        width:450px;
-        background: #fff;
-        height: auto;
-        margin: auto;
         gap: 10%;
         margin-left: -50px;
-        border-radius: 40px;
-        box-shadow: 10px 10px 20px 10px var(--Grayish-Blue);
+        margin-top: 0em;
+        width: 350px;
     }
-    
-    .head-style{
-        width: 200px;
-        height: 20px;
-        background-color:#fff;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius:3px 3px 40px 40px ;
-    }
-    
-    .header{
-        background:linear-gradient(to left, var(--Light-Magenta), var(--Light-Violet));
-        border-radius:40px 40px 5px 5px;
-    }
-    
-    .heading{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 1rem;
-        margin: auto;
-        margin-top: -35px;
-        color: #fff;
-        border-radius:40px 40px 5px 5px;
-    }
-    
-    
-    .arrow1 {
-        border: 1px solid #fff;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 4px;
-      }
-    
-      .left {
-        margin-top: 35px;
-        margin-left: 10px;
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
-      }
-    
-      .profile{
-        width: fit-content;
-        gap: 10px;
-      }
-    .image{
-        width:30px;
-        height: 30px;
-        margin-top: 25px;
-        border: 2px solid #fff;
-        border-radius: 50%;
-    }
-    
-    .name{
-        margin-top:20px;
-        line-height: 10px;
-    }
-    
-    .name h1{
-        font-size: 16px;
-        font-weight: 300;
-    }
-    
-    .name .Avaliable{
-        font-size: 12px;
-        font-weight: 300;
-        color: rgba(255, 255, 255, 0.487);
-    }
-    
-    .dots{
-        margin-top: 20px;
-        margin-right: 10px;
-    }
-    .dots div{
-        width: 0px;
-        height: 8px;
-        font-weight: 900;
-    }
-    .dots a{
-        text-decoration: none;
-        color: #fff;
-    }
-    /*------------Messages-------------*/
-    
-    .message{
-        background:rgb(239, 237, 237);
-        display: flex;
-        flex-direction: column;
-        padding:0px 10px;
-        padding-bottom: 1rem;
-        border-radius: 0px 0px 40px 40px;
-    }
-    
-    .receiver{
-        width:100%;
-        padding: 0.5rem;
-        max-width: 80%;
-        border-radius: 15px;
-    }
-    
-    .sender-image{
-        display: flex;
-        flex-direction: row;
-        width:0px;
-        gap: 10px;
-    }
-    
-    .dogs{
-        width: 40px;
-        border-radius: 10px;
-    }
-    
-    .sender{
-        align-self: flex-end;
-        width: fit-content;
-        display: flex;
-        background: #fff;
-        color: var(--Dark-Grayish-Violet);
-        border-radius: 10px;
-        padding: 0.5rem;
-        justify-self: end;
-        max-width:210px;
-        box-shadow: 3px 3px 5px 5px var(--Grayish-Blue);
-    }
-    
-    
 
     /*---------------content-----------*/
-    
     
     .content{
         width:40%;
