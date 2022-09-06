@@ -302,7 +302,7 @@ h3{
 
 }
     .container{
-        width:80%;
+        width:100%;
         display: flex;
         padding-top: 2rem;
         padding-bottom: 3rem;
@@ -310,7 +310,7 @@ h3{
 
     .phone{
         border: 8px solid white;
-        width:25%;
+        width:450px;
         background: #fff;
         height: auto;
         margin: auto;
